@@ -10,10 +10,10 @@ footer {
   text-align: center;
   gap: 0.4rem;
 
-  /* COMMENT THIS AND SEE THE CHANGES */
-  max-width: 600px;
+  /* UNCOMMENT THIS AND SEE THE CHANGES */
+  /* max-width: 600px;
   margin-inline: auto;
-  z-index: -1;
+  z-index: -1; */
 }
 
 footer a {
@@ -40,7 +40,7 @@ body {
 
 .container {
   max-width: 600px;
-  margin: 4rem auto 0;
+  margin: 4rem auto 4rem;
   padding: 1em;
   background-color: #eef5ff;
   border-radius: 10px;
