@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #eef5ff;
+}
+
+.container {
+  width: 50%;
+}
+
+.content {
+  background: #adf0f5;
+  height: 400px;
+  margin: 1em;
+}
+
+.content.one {
+  height: 100px;
+}
+
+.box {
+  width: 180px;
+  height: 100px;
+  font-size: clamp(16px, 4vw, 32px);
+  background-color: #0ebac5;
+  display: grid;
+  place-content: center;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  height: 150vh; /* To create enough scrollable content */
+  margin: 0;
+  padding: 0;
+}
+
+.tile {
+  background: #adf0f5;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+@media (width < 600px) {
+  .tile {
+    height: 150px;
+  }
+}
+
+.tile.sticky {
+  position: relative;
+  top: 0;
+
+  background-color: #0ebac5;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.2rem;
+  display: grid;
+  place-content: center;
+}
